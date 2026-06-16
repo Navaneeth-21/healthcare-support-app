@@ -175,7 +175,6 @@ textarea {
   font-size: 0.95rem;
   background: #f7fbfa;
   color: #1a2e2a;
-  /* ← dark text color */
   transition: border 0.2s;
 }
 
@@ -186,7 +185,6 @@ textarea:focus {
   border-color: #0d6e55;
   background: white;
   color: #1a2e2a;
-  /* ← keep text dark on focus too */
 }
 
 .success-msg {
@@ -292,9 +290,8 @@ textarea:focus {
   border-radius: 8px;
   font-size: 0.9rem;
   color: #1a2e2a;
-  /* ← add this */
   background: #f7fbfa;
-  /* ← add this */
+
 }
 
 .chat-input button {
