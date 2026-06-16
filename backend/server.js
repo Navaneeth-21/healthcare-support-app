@@ -14,6 +14,9 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
+app.get("/", (req, res) => {
+  res.send("HealthBridge Backend API is running.");
+});
 // --- Registration Route ---
 app.post("/api/register", (req, res) => {
   const { name, email, phone, role, message } = req.body;
